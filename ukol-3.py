@@ -13,5 +13,5 @@ for name, score in data.items():
         result[name] = "Fail"
 
 # Save result to file
-with open('prospech.json', 'w', encoding='utf-8') as f:
-    json.dump(result, f)
+with open('prospech.json', mode='w', encoding='utf-8') as soubor:
+    json.dump(result, soubor, ensure_ascii=False)
