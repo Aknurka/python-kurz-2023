@@ -13,13 +13,13 @@ prumer = [sum(n) / len(n) for n in teploty]
 print(prumer)
 
 #Vytvořte seznam ranních teplot.
-morning = [n[0] for n in teploty]
-print(morning)
+rano = [n[0] for n in teploty]
+print(rano)
 
 #Vytvořte seznam nočních teplot.
-evening = [n[3] for n in teploty]
-print(evening)
+vecer = [n[3] for n in teploty]
+print(vecer)
 
 #Vytvořte seznam dvouprvkových seznamů obsahujících pouze polední a noční teplotu
-afternoon = [[n[1], n[3]] for n in teploty]
-print(afternoon)
+odpoledne = [[n[1], n[3]] for n in teploty]
+print(odpoledne)
